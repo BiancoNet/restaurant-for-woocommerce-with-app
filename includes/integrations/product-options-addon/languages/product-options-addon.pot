@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EX Product Options\n"
+"POT-Creation-Date: 2020-05-20 17:16+0700\n"
+"PO-Revision-Date: 2020-05-20 17:16+0700\n"
+"Last-Translator: \n"
+"Language-Team: Ex Themes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: product-options-addon/admin/inc/metadata.php:15
+msgid "Additional option"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:21
+msgid "Add additional product option to allow user can order with this product"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:24
+msgid "Option {#}"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:25
+msgid "Add Option"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:26
+msgid "Remove Option"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:34
+msgid "Name"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:40
+msgid "Option type"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:41
+msgid "Select type of this option"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:47
+msgid "Checkboxes"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:48
+msgid "Radio buttons"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:49
+msgid "Select box"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:53
+msgid "Required?"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:54
+msgid "Select this option is required or not"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:60
+msgid "No"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:61
+msgid "Yes"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:65
+msgid "Options"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:66
+msgid "Set name and price for each option"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:75
+msgid "Quantity Based"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:76
+msgid "Fixed Amount"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:95
+msgid "Option name"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:105
+msgid "Price"
+msgstr ""
+
+#: product-options-addon/admin/inc/metadata.php:115
+msgid "Type of price"
+msgstr ""
+
+#: product-options-addon/inc/woo-hook.php:37
+msgid "Select"
+msgstr ""
+
+#: product-options-addon/inc/woo-hook.php:55
+msgid "This option is required"
+msgstr ""
+
+#: product-options-addon/inc/woo-hook.php:78
+msgid "Please re-check all required fields and try again"
+msgstr ""

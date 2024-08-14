@@ -1,0 +1,176 @@
+.wrs-fdlist{ direction:rtl;}
+.wrs-fdlist .wrstyle-4 figcaption p,
+.wrs-fdlist .wrstyle-4 figcaption h3{text-align: right;}
+.wrs-fdlist.style-1 .item-grid{
+	border-left: 2px dashed rgba(0, 0, 0, 0.15);
+	border-right: 0;
+}
+@media screen and (max-width: 768px){
+	.wrs-fdlist.column-3.style-1 .item-grid:nth-child(3n), .wrs-fdlist.column-4.style-1 .item-grid:nth-child(4n), .wrs-fdlist.column-5.style-1 .item-grid:nth-child(5n) {
+		border-right: 0;
+	}
+	.wrs-fdlist.column-3.style-4  .ctgrid .item-grid:nth-child(3n){margin-left: 10px;margin-right: 0;}
+	.wrs-fdlist.column-4.style-4  .ctgrid .item-grid:nth-child(4n){margin-left: 10px;margin-right: 0;}
+	.wrs-fdlist.column-5.style-4  .ctgrid .item-grid:nth-child(5n){margin-left: 10px;margin-right: 0;}
+	.wrs-fdlist.column-3.style-4  .ctgrid .item-grid:nth-child(2n){margin-left: 0;margin-right: 0;}
+	.wrs-fdlist.column-4.style-4  .ctgrid .item-grid:nth-child(2n){margin-left: 0;margin-right: 0;}
+	.wrs-fdlist.column-5.style-4  .ctgrid .item-grid:nth-child(2n){margin-left: 0;margin-right: 0;}
+}
+@media screen and (max-width: 992px) and (min-width: 769px){
+	.wrs-fdlist.column-5.style-1 .item-grid:nth-child(5n), .wrs-fdlist.column-4.style-1 .item-grid:nth-child(4n) {
+		border-right: 0;
+	}
+	.wrs-fdlist.column-4.style-4  .ctgrid .item-grid:nth-child(4n){margin-left: : 10px;margin-right: 0;}
+	.wrs-fdlist.column-5.style-4  .ctgrid .item-grid:nth-child(5n){margin-left: 10px;margin-right: 0;}
+	.wrs-fdlist.column-4.style-4  .ctgrid .item-grid:nth-child(3n){margin-right: 0;margin-left: 0;}
+	.wrs-fdlist.column-5.style-4  .ctgrid .item-grid:nth-child(3n){margin-right: 0;margin-left: 0;}
+}
+@media (max-width: 450px){
+	.wrs-fdlist.style-1 .ctgrid .item-grid:nth-child(n){border-right: 0}
+	.wrs-fdlist.column-2.style-3  .ctgrid .item-grid{
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+	}
+	.wrs-fdlist.style-3 .parent_grid .ctgrid .item-grid:nth-child(n),
+	.wrs-fdlist.style-4 .parent_grid .ctgrid .item-grid:nth-child(n){
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+	}
+}
+.wrs-fdlist.style-3 .item-grid{
+	margin-left: 5px;
+	margin-right: 0;
+}
+.wrs-fdlist.column-3.style-3 .item-grid:nth-child(3n),
+.wrs-fdlist.column-2.style-3 .item-grid:nth-child(2n){
+	margin-left: 0;
+}
+.wrs-fdlist .wrstyle-3.wrstyle-3-center figcaption .wrstyle-3-button{
+	float: right;
+	left: unset;
+	right: 10px;
+}
+.wrs-fdlist .wrstyle-3 figcaption .wrsbt-inline{left: unset; right: 10px}
+.wrs-fdlist .wrstyle-3 figcaption .wrsbt-inline .wrstyle-3-button{position: static;}
+.wrs-fdlist .wrstyle-3.wrstyle-3-center figcaption button{float: right;}
+.wrsfd-ribbon{
+	left: unset;
+	right: 0;
+}
+.wrsfd-ribbon span{
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	left: unset;
+	right: -28px;
+}
+.wrs-fdlist.style-4 .item-grid{
+	margin-right: unset;
+	margin-left: 10px;
+}
+.wrs-fdlist .wrstyle-4 .wrsfd-icon-plus:before{
+	left: 13px;
+}
+.wrs-fdlist .wrstyle-4 .wrsfd-icon-plus:after{
+	left: 5px;
+}
+.wrs-fdlist.column-2.style-4 .item-grid:nth-child(2n),
+.wrs-fdlist.column-3.style-4 .item-grid:nth-child(3n),
+.wrs-fdlist.column-4.style-4 .item-grid:nth-child(4n),
+.wrs-fdlist.column-5.style-4 .item-grid:nth-child(5n){
+	margin-left: 0;
+}
+.wrsfd-table-1 th, td{
+	text-align: right;
+}
+.table-lv-sort th.exp-sort{text-align: right;}
+.table-lv-sort th.exp-sort:before, .table-lv-sort th.exp-sort:after{
+	right: unset;
+	left: 5px;
+}
+.wrs-loadmore .loadmore-wooresf span:not(.load-text):nth-child(2){
+	margin-right: 10px;
+	margin-left: 0;
+}
+.wrsfd-pagination{ text-align:center;}
+.wrsfd-pagination .page-navi{
+	width:auto;
+	margin: 0 auto;
+	float: none;
+	direction: rtl;
+}
+.wrs-fdlist .wrsfd-pagination .page-navi .prev-ajax,
+.wrs-fdlist .wrsfd-pagination .page-navi .next-ajax{color: transparent; padding-right: 3px}
+.wrs-fdlist .wrsfd-pagination .page-navi .prev-ajax:after { content: "\2192"; font-size:13px; color:#aaa}
+.wrs-fdlist .wrsfd-pagination .page-navi .next-ajax:after { content: "\2190";font-size:13px; color:#aaa}
+.wr_modal .modal-content .fd_modal_des h5,
+.wr_modal .modal-content .fd_modal_des h3{text-align: right;}
+.wr_modal .modal-content .fd_modal_des h3:after{left: unset;right: 0}
+.wr_modal .modal-content .wrsfd-modal-carousel .wr_s_lick-slide{float: right;}
+
+.wrsfd-cart-content .wrsfd-cart-buildin ul li, .wrsfd-cart-content .woocommerce-mini-cart li{
+	padding: 10px 60px 10px 15px;
+}
+.wrsfd-cart-content .woorst-close, .wrsfd-cart-content .woocommerce-mini-cart a.remove.remove_from_cart_button{
+	right:unset;
+	left: 0;
+}
+.wrsfd-cart-content .wrsfd-cart-buildin ul li a img, .wrsfd-cart-content .woocommerce-mini-cart li a img{
+	left: unset;
+	right: 0;
+}
+.wrsfd-cart-content{
+	left: 0;
+	right: auto;
+	transform: translateX(-100%);
+}
+.wrs-fdlist .wrsfd-shopping-cart{
+	right: unset;
+	left: 8px;
+}
+.woorst-woocommerce.woocommerce div.quantity input[type=number]{
+	/*-float: right;-*/
+}
+.woorst-woocommerce.woocommerce table.variations tr td.label{ text-align: right; }
+.ctlist .wrff-img{
+	float: right;
+	margin-right: unset;
+	margin-left: 20px;
+}
+.fdstyle-list-1 .fdlist_1_des button{
+	right: unset;
+	left: 0;
+}
+.fdstyle-list-1 .fdlist_1_des{
+	width: unset;
+	display: flex;
+}
+.fdstyle-list-1 .fdlist_1_des p{
+	padding-right: 0;
+}
+.fdstyle-list-2 .fdlist_2_title .fdlist_2_price{
+	margin-right: unset;
+	margin-left: 40px;
+}
+.fdstyle-list-2 .woorst-addicon{right: unset;left: 0}
+.fdstyle-list-3 .fdlist_3_title h3{text-align: right;}
+.wrs-fdlist.wrs-fdcarousel .ctgrid.wr_s_lick-slider .wr_s_lick-prev{left: unset; right: 15px; padding-left: unset; padding-right: 5px}
+.wrs-fdlist.wrs-fdcarousel .ctgrid.wr_s_lick-slider .wr_s_lick-next{right: unset;left: 15px; padding-left: 5px}
+.wrs-fdcarousel .wr_s_lick-prev:before, .wrs-fdcarousel .wr_s_lick-next:before{
+	border-width: 3px 0 0 3px;
+}
+
+.wrs-fdlist.list-layout .wrsfd-filter .wrsfd-filter-group .wrs-menu-list a{
+	float:right;
+}
+.wrsf-search .wrsf-s-submit { left: 11px; right: auto; }
+.wrsf-search .wrsf-s-submit {
+	left: 11px;
+	right: auto;
+}
+.wrsf-menuof-date .mndate-sl {padding: 9px 15px 9px 42px;}
+.wrsf-menuof-date .mndate-close {
+	left: 0;
+	right: auto;
+}

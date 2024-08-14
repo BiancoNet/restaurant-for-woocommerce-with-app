@@ -1,0 +1,146 @@
+.wrmb-row.column-2 {
+	width: 50%;
+	display: inline-block;
+}
+.wrmb-row.column-4 {
+	width: 25%;
+	display: inline-block;
+}
+.wrmb-row.column-3 {
+	width: 33.333333%;
+	display: inline-block;
+}
+.wrmb-row.column-3 > div {
+	width: 100% !important;
+}
+.wrmb-row.column-7 {
+	width: 14.2%;
+	display: inline-block;
+	border-bottom: 0!important;
+}
+.wrmb-row.column-7 > div{ width:auto !important; float: left !important; margin-right: 5px;}
+.wrmb-row.column-7 > div label { padding: 0; }
+.post-type-product .wrmb-row > div{
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.post-type-product #side-sortables .wrmb-row > div{ padding:0; }
+.wrmb-type-group .wrmb-row.column-4 .wrmb-th, .wrmb2-postbox .wrmb-row.column-4 .wrmb-th,
+.wrmb-type-group .wrmb-row.column-2 .wrmb-th, .wrmb2-postbox .wrmb-row.column-2 .wrmb-th{ width:100%; display: block;}
+.wrmb-type-group .wrmb-row.column-4 .wrmb-th+.wrmb-td, .wrmb2-postbox .wrmb-row.column-4 .wrmb-th+.wrmb-td,
+.wrmb-type-group .wrmb-row.column-2 .wrmb-th+.wrmb-td, .wrmb2-postbox .wrmb-row.column-2 .wrmb-th+.wrmb-td{ display: block; float: left; }
+.wrmb-row.column-2 .regular-text,
+.wrmb-row.column-4 .regular-text{ width:auto}
+.post-type-woorestaurant_scbd .wrmb2-wrap select{ min-width:160px;}
+#adminmenu #menu-posts-product ul>li>a:empty{ display:none;}
+.wrs-layout-carousel .hide-incarousel,
+.wrs-layout-table .hide-intable,
+.wrs-layout-list .hide-inlist,
+.wrs-layout-mn_group .hide-mn_group,
+.wrs-layout-grid .hide-ingrid{ opacity:.3; pointer-events: none;}
+.post-type-product .wrmb-type-group .wrmb2-wrap>.wrmb-field-list>.wrmb-row,
+.post-type-product .wrmb2-postbox .wrmb2-wrap>.wrmb-field-list>.wrmb-row{ padding: 7px 0; margin: 0;}
+.post-type-product .wrmb2-wrap .wrmb-row.column-2:last-of-type,
+.post-type-product .wrmb2-wrap .wrmb-row.column-4:last-of-type,
+.post-type-product .wrmb2-wrap .wrmb-row.column-3:last-of-type{ border-bottom:1px solid #eee}
+
+.woorst-title img{ max-width: 100px; }
+/*
+.wrmb-image-display{width: 100%; height: auto;}
+.wrmb-file-field-image{width: 100%;}*/
+.wrmb-form div[id^="picker-"] {z-index: 1000; background: #EEE; border: 1px solid #CCC; position: absolute; display: block;}
+.post-type-product .wrmb-row .wrmb-td {position: relative;}
+
+.post-type-product .wrmb-repeat-table .wrmb-row.wrmb-repeat-row > div {
+	width: 50%;
+	float: left;
+}
+input.wrsfd-sort-menu{max-width:60px; width: 101%;}
+.post-type-product table.wp-list-table .column-name { width: 12%;}
+.wrmb-type-openclose .wrmb-td .wrmb-td > div,
+.post-type-product  .wrmb-repeat-table .wrmb-row.wrmb-repeat-row > div {
+	width: 50%;
+	float: left;
+}
+.post-type-product  .wrmb-type-openclose .wrmb-repeat-table .wrmb-row.wrmb-repeat-row > .wrmb-td{ width: 70% }
+.post-type-product  .wrmb-type-openclose .wrmb-repeat-table .wrmb-row.wrmb-repeat-row > .wrmb-td.wrmb-remove-row{width: 28%}
+.wrmb-type-openclose .wrmb-td .wrmb-td p{ display: inline-block; margin: 15px 30px;  }
+/* Time slot*/
+.wrmb-type-timedelivery .wrmb-td .wrmb-td .wrsf-timeslots > div {width: 24%;float: left;}
+.wrmb-type-timedelivery .wrmb-td .wrmb-td .wrsf-timeslots.disable-slt > div {width: 18%;float: left; margin-right: 1%;}
+.wrsf-disable-slot { text-align: center; }
+.wrmb-type-timedelivery .wrmb-td .wrmb-td .wrsf-timeslots.fee-bytimeslot > div{width: 18%; margin-right: 1%;}
+.wrmb-type-timedelivery .wrmb-td .wrmb-td .wrsf-timeslots.fee-bytimeslot.disable-slt > div{width: 15%; margin-right: 1%;}
+.wrmb-type-timedelivery .wrmb-td .wrmb-td .wrsf-timeslots.fee-bytimeslot .wrsf-shipping-fee{ display: block !important; }
+.wrmb-type-timedelivery .wrmb-td .wrmb-td .wrsf-timeslots > div input{ width:auto}
+.wrmb-type-timedelivery .wrmb-td #wooresfd_deli_time_repeat .wrmb-row > .wrmb-td { width: 95%;}
+.wrmb-type-timedelivery .wrmb-td #wooresfd_deli_time_repeat .wrmb-row > .wrmb-td.wrmb-remove-row {width: 5%;}
+.wrs-hidden,
+#adminmenu li#toplevel_page_woo_restaurant_custom_code_options,
+#adminmenu li#toplevel_page_woo_restaurant_js_css_file_options,
+#adminmenu li#toplevel_page_woo_restaurant_shpping_options,
+#adminmenu li#toplevel_page_woo_restaurant_verify_options,
+#adminmenu li#toplevel_page_woo_restaurant_adv_timesl_options,
+#adminmenu li#toplevel_page_woo_restaurant_adv_takeaway_options,
+#adminmenu li#toplevel_page_woo_restaurant_adv_dinein_options,
+#toplevel_page_woo_restaurant_options .dashicons-before,
+#adminmenu #toplevel_page_woo_restaurant_advanced_options,
+#adminmenu #toplevel_page_woo_restaurant_tip_options,
+#adminmenu #toplevel_page_woo_restaurant_whatsapp_options,
+#adminmenu #toplevel_page_woo_restaurant_tools_options {
+	display: none;
+}
+#adminmenu li#toplevel_page_woo_restaurant_options:hover{ background: transparent; }
+#adminmenu li#toplevel_page_woo_restaurant_options a.menu-top{ background: transparent; }
+#adminmenu li#toplevel_page_woo_restaurant_options div.wp-menu-name{padding:0; transition: all .1s ease-in-out,outline 0s; font-weight: bold;}
+#adminmenu li#toplevel_page_woo_restaurant_options:hover div.wp-menu-name{ color: #00b9eb; }
+div#wrmb2-metabox-woo_restaurant_menu_data > .wrmb-row { margin: 15px -15px; }
+.wrmb2-wrap .wrmb-row.wrmb2-id-wrsp-loc-diskm .wrmb-td {width: calc( 100% - 200px );}
+.wrsf-sub-option a{ text-decoration: none; }
+.wrsf-sub-option a.current{font-weight: 600; color: #000}
+.wrmb2-options-page a.nav-tab[href*=woo_restaurant_adv_takeaway_options],
+.wrmb2-options-page a.nav-tab[href*=woo_restaurant_adv_dinein_options],
+.wrmb2-options-page a.nav-tab[href*=woo_restaurant_tip_options],
+.wrmb2-options-page a.nav-tab[href*=woo_restaurant_whatsapp_options],
+.wrmb2-options-page a.nav-tab[href*=woo_restaurant_adv_timesl_options] {display:none;}
+#woores_addition_options .wrmb-repeatable-group.sortable .wrmb-group-title { cursor: move; }
+#woo_restaurant_cticon .wrmb-remove-field-row,
+#woo_restaurant_custom_data .wrmb-remove-row .move-up, #woo_restaurant_custom_data .wrmb-remove-row .move-down,
+#woores_addition_options .wrmb-remove-row .move-up, #woores_addition_options .wrmb-remove-row .move-down{ display:none}
+#side-sortables .wrmb2-wrap input[type=text]:not(.wp-color-picker)#woores_product_ids {width: auto;}
+.wrsf-collapse-con .wrmb-group-description div { padding: 10px 0; }
+
+.option-woo_restaurant_adv_timesl_options .wrsf-auto-sl,.wrsf-generatesl{width: 20%;display: inline-block;}
+.option-woo_restaurant_adv_timesl_options .wrsf-auto-sl input{ width: 100px; }
+.option-woo_restaurant_adv_timesl_options .wrsf-auto-sl + a {clear: left;}
+#woore_menubydate .wrmb-field-list .menu-time-sl > *,
+.option-woo_restaurant_adv_timesl_options .wrsf-auto-sl > * {display: block;float: none;width: 100% !important;}
+#woore_menubydate .wrmb-field-list .menu-time-sl span.wrmb2-metabox-description,
+.option-woo_restaurant_adv_timesl_options  .wrsf-auto-sl span.wrmb2-metabox-description {display: block;}
+.option-woo_restaurant_adv_timesl_options span.wrsf-generatesl{ position: relative;}
+.option-woo_restaurant_adv_timesl_options span.wrsf-generatesl a {
+	border: 1px solid #8c8f94;
+	border-radius: 3px;
+	padding: 7px 18px;
+	background: #f6f7f7;
+	text-decoration: none;
+	margin-left: 20px;
+	display: inline-block;
+	position: absolute; top: 7px;
+}
+#woore_menubydate .wrmb-field-list .menu-time-sl{ width: calc( 24.5% - 15px ); display: inline-block; margin-right: 15px; }
+
+.taxonomy-woore_odmethod form#addtag,
+.taxonomy-woore_odmethod div#col-left,
+div#woore_odmethod-adder { display: none;}
+.taxonomy-woore_odmethod #col-right {width: 100%;}
+#wrmb2-metabox-wrsp_loc_data > .wrmb-row{margin: 10px -15px;}.taxonomy-woorestaurant_loc #wrmb2-metabox-wrsp_loc_data > .wrmb-row { margin: 10px 0; }
+#wrmb2-metabox-wrsp_loc_data #wrsp_loc_ship_postcodes{ height: 100px; }
+#wrmb2-metabox-wrsp_loc_data .wrsf-collapse .wrmb-td p{margin: 0;}
+#wrmb2-metabox-wrsp_loc_data .wrmb-row.wrmb-type-openclose {margin: 15px 0;}
+#wrmb2-metabox-wrsp_loc_data .wrmb-repeat-table .wrmb-remove-row>.wrmb-remove-row-button{ position: absolute; }
+#wrmb2-metabox-wrsp_loc_data .wrmb2-id-wrsp-loc-ship-postcodes .wrmb-td { width: calc(100% - 200px); }
+
+.wrmb2-id-wrsfood-opcl-datetodate .wrmb-repeatable-group .wrmb-field-list > div {width: 40%;display: inline-block;border: 0;}
+.wrmb2-id-wrsfood-opcl-datetodate .wrmb-repeatable-group .wrmb-field-list > div:last-child {width: 19%;vertical-align: top;}
+.wrmb2-id-wrsfood-opcl-datetodate .wrmb-repeatable-group .wrmb-field-list .wrmb2-metabox-description {display: block;margin-top: 10px;}

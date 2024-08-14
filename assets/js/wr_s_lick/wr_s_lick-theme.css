@@ -1,0 +1,204 @@
+@charset 'UTF-8';
+/* Slider */
+.wr_s_lick-loading .wr_s_lick-list
+{
+	background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+	font-family: 'wr_s_lick';
+	font-weight: normal;
+	font-style: normal;
+
+	src: url('./fonts/wr_s_lick.eot');
+	src: url('./fonts/wr_s_lick.eot?#iefix') format('embedded-opentype'), url('./fonts/wr_s_lick.woff') format('woff'), url('./fonts/wr_s_lick.ttf') format('truetype'), url('./fonts/wr_s_lick.svg#wr_s_lick') format('svg');
+}
+/* Arrows */
+.wr_s_lick-prev,
+.wr_s_lick-next
+{
+	font-size: 0;
+	line-height: 0;
+
+	position: absolute;
+	top: 50%;
+
+	display: block;
+
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+
+	cursor: pointer;
+
+	color: transparent;
+	border: none;
+	outline: none;
+	background: transparent;
+}
+.wr_s_lick-prev:hover,
+.wr_s_lick-prev:focus,
+.wr_s_lick-next:hover,
+.wr_s_lick-next:focus
+{
+	color: transparent;
+	outline: none;
+	background: transparent;
+}
+.wr_s_lick-prev:hover:before,
+.wr_s_lick-prev:focus:before,
+.wr_s_lick-next:hover:before,
+.wr_s_lick-next:focus:before
+{
+	opacity: 1;
+}
+.wr_s_lick-prev.wr_s_lick-disabled:before,
+.wr_s_lick-next.wr_s_lick-disabled:before
+{
+	opacity: .25;
+}
+
+.wr_s_lick-prev:before,
+.wr_s_lick-next:before
+{
+	font-family: 'wr_s_lick';
+	font-size: 20px;
+	line-height: 1;
+
+	opacity: .75;
+	color: transparent;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wr_s_lick-prev
+{
+	left: -25px;
+}
+[dir='rtl'] .wr_s_lick-prev
+{
+	right: -25px;
+	left: auto;
+}
+.wr_s_lick-prev:before
+{
+	content: '←';
+}
+[dir='rtl'] .wr_s_lick-prev:before
+{
+	content: '→';
+}
+
+.wr_s_lick-next
+{
+	right: -25px;
+}
+[dir='rtl'] .wr_s_lick-next
+{
+	right: auto;
+	left: -25px;
+}
+.wr_s_lick-next:before
+{
+	content: '→';
+}
+[dir='rtl'] .wr_s_lick-next:before
+{
+	content: '←';
+}
+
+/* Dots */
+.wr_s_lick-dotted.wr_s_lick-slider
+{
+	margin-bottom: 30px;
+}
+
+.wr_s_lick-dots
+{
+	position: absolute;
+	bottom: -25px;
+
+	display: block;
+
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+	list-style: none;
+
+	text-align: center;
+}
+.wr_s_lick-dots li
+{
+	position: relative;
+
+	display: inline-block;
+
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+	padding: 0;
+
+	cursor: pointer;
+}
+.wr_s_lick-dots li button
+{
+	font-size: 0;
+	line-height: 0;
+
+	display: block;
+
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+
+	cursor: pointer;
+
+	color: transparent;
+	border: 0;
+	outline: none;
+	background: transparent;
+}
+.wr_s_lick-dots li button:hover,
+.wr_s_lick-dots li button:focus
+{
+	outline: none;
+}
+.wr_s_lick-dots li button:hover:before,
+.wr_s_lick-dots li button:focus:before
+{
+	opacity: 1;
+}
+.wr_s_lick-dots li button:before
+{
+	font-family: 'wr_s_lick';
+	font-size: 6px;
+	line-height: 20px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 20px;
+	height: 20px;
+
+	content: '•';
+	text-align: center;
+
+	opacity: .25;
+	color: black;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.wr_s_lick-dots li.wr_s_lick-active button:before
+{
+	opacity: .75;
+	color: black;
+}

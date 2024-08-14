@@ -1,0 +1,49 @@
+.woocommerce form.cart .wrrow-group .wooresf-label {
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+}
+.woocommerce form.cart .wrrow-group{display: inline-block; width: 100%;}
+.woocommerce form.cart .wrrow-group .woores-container > span {
+	margin-right: 20px;
+	display: inline-block;
+	white-space: normal;
+}
+.woocommerce form.cart .wrrow-group input {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.woocommerce form.cart .wrrow-group {
+	margin: 0 0 10px 0;
+}
+.woocommerce form.cart .wrs-required-min-message,
+.woocommerce form.cart .wrs-required-max-message,
+.woocommerce form.cart .wrs-required-message{ color: red; padding: 0; margin:3px 0; display: none; }
+.wrs-required span.wooresf-label .woores-otitle:after {content: " * ";color: red;}
+.woocommerce form.cart .wrrow-group span.wooresf-label span{ margin:0; padding: 0; }
+
+form.cart:not(.variations_form) .woores-product-options { margin-top: -3px; }
+.woocommerce form.cart .wrrow-group input.wrs-options[type="number"],
+.woocommerce form.cart .wrrow-group input.wrs-options[type="text"],
+.woores-product-options  textarea.wrs-options,
+.woores-product-options  input.wrs-options[type="text"] {
+	width: 100%;
+	border: 1px solid #ddd;
+	background: #fafafa;
+}
+.woores-accordion-style .wrrow-group .wooresf-label{ cursor: pointer; }
+.woocommerce form.cart .wrrow-group .woores-container{ margin-top: 5px; }
+.woocommerce form.cart .woores-accordion-style .woores-container{ display: none; }
+.woores-product-options.woores-accordion-style .wrrow-group{border:1px solid #eee; padding: 10px 15px; border-radius: 3px; background: #f3f3f3; position: relative;}
+.woores-accordion-style span.wooresf-label:after{content: "+";position: absolute;right: 10px;}
+.woores-accordion-style span.wooresf-label.woores-active:after {content: "-";}
+@media (max-width: 768px){
+	.woocommerce form.cart .wrrow-group .woores-container > span{ width: 100%; white-space: normal; }
+}
+.woorst-woocommerce.woocommerce form.cart input[type=number]::-webkit-inner-spin-button,
+.woorst-woocommerce.woocommerce form.cart input[type=number]::-webkit-outer-spin-button {  opacity: 1;}
+.woocommerce form.cart .wrrow-group.wrs-logic-on,
+.wrrow-group.wrs-logic-on { display: none; }
+.wrsfd-cart-content .woocommerce-mini-cart li a.wrsf-edit-options,
+.wrsf-edit-options {display: block; font-size: 10px; font-weight: bold;color: initial;text-decoration: underline !important;}

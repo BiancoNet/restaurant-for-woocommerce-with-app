@@ -1,0 +1,5 @@
+*** Restaurant for WooCommerce with App Changelog ***
+
+2024-07-29 - version 1.0.0
+* Initial release
+* Sniffer resolved
